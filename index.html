@@ -1,36 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slider</title>
-    <link rel="stylesheet" src="css/style.css">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <nav class="nav-main">
-                    <ul class="nav-list">
-                        <li class="nav-list__item"><a href="#" class="nav-list__link">Главная</a></li>
-                        <li class="nav-list__item"><a href="#" class="nav-list__link">Наши проекты</a></li>
-                        <li class="nav-list__item"><a href="#" class="nav-list__link">Услуги</a></li>
-                        <li class="nav-list__item"><a href="#" class="nav-list__link">Новости</a></li>
-                        <li class="nav-list__item"><a href="#" class="nav-list__link">Контакты</a></li>
-                    </ul>
-                </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Slider</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <nav class="nav-main">
+                        <ul class="nav-list">
+                            <li class="nav-list__item active">
+                                <a href="#" class="nav-list__link">Главная</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__link"
+                                    >Наши проекты</a
+                                >
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__link">Услуги</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__link">Новости</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="#" class="nav-list__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
-    </header>
-    <!-- Promo section -->
-    <section class="promo">
-        <div class="container">
-            <div class="promo__content"></div>
-        </div>
-    </section>
-    <!-- Script JS -->
-    <script src="js/script.js"></script>
-</body>
+        </header>
+        <!-- Promo section -->
+        <section class="promo">
+            <div class="container">
+                <div class="promo__content">
+                    <h2 class="promo__subtitle">Передовая IT студия</h2>
+                    <h1 class="promo__title">
+                        Мы создаем легкие решения сложных задач и проблем
+                    </h1>
+                    <a href="#" class="promo__btn btn">Наши проекты</a>
+                </div>
+            </div>
+        </section>
+        <!-- Services section -->
+        <section class="services">
+            <div class="container">
+                <div class="services__inner">
+                    <div class="services__header">
+                        <h2 class="services__title">
+                            Мы создаем мобильные приложения для крупных
+                            корпораций
+                        </h2>
+                        <p class="services__subtitle">
+                            Lorem Ipsum - это текст-"рыба", часто используемый в
+                            печати и вэб-дизайне. Lorem Ipsum является
+                            стандартной "рыбой" для текстов на латинице с начала
+                            XVI века.
+                        </p>
+                    </div>
+                    <div class="services-body">
+                        <div class="services-items">
+                            <div class="services-item">
+                                <div class="services-item__icon">
+                                    <img
+                                        src="./image/free-icon-software-development-6656266.png"
+                                        alt="" />
+                                </div>
+                                <div class="services-item__content">
+                                    <h3 class="services-item__title">
+                                        Создание сайтов
+                                    </h3>
+                                    <p class="services-item__text">
+                                        Lorem Ipsum - это текст- "рыба", часто
+                                        используе в печати и вэб-дизайне.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="services-item">
+                                <div class="services-item__icon">
+                                    <img
+                                        src="./image/free-icon-software-development-6656266.png"
+                                        alt="" />
+                                </div>
+                                <div class="services-item__content">
+                                    <h3 class="services-item__title">
+                                        Создание сайтов
+                                    </h3>
+                                    <p class="services-item__text">
+                                        Lorem Ipsum - это текст- "рыба", часто
+                                        используе в печати и вэб-дизайне.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="services-item">
+                                <div class="services-item__icon">
+                                    <img
+                                        src="./image/free-icon-software-development-6656266.png"
+                                        alt="" />
+                                </div>
+                                <div class="services-item__content">
+                                    <h3 class="services-item__title">
+                                        Создание сайтов
+                                    </h3>
+                                    <p class="services-item__text">
+                                        Lorem Ipsum - это текст- "рыба", часто
+                                        используе в печати и вэб-дизайне.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="services-body__btn btn"
+                            >Все услуги</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About section -->
+        <section class="about">
+            <div class="container">
+                
+            </div>
+        </section>
+        <!-- Script JS -->
+        <script src="js/script.js"></script>
+    </body>
 </html>
